@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu {
+    background-color: #343A40;
+    display: flex;
+    justify-content: flex-end;
+    font-family: cursive;
+}
+
+.nav-menu .nav-links {
+    text-decoration: none;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-menu .nav-links:hover {
+    background-color: orange;
+    animation: ease-in-out;
+    transition: 0.5s;
+}
+
+.navbar-brand {
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: tomato;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    cursor: pointer;
+}
+
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;   
+}
+
+.contact-title {
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+form {
+    margin-top: 50px;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+form .submit {
+    background-color: #ff5722;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+    transition: 1.7s;
+    animation: ease-in-out;
+}
+
+.contact-subtitle {
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.social-media {
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.btn {
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 2rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    box-shadow: 3.5px 3.5px 3.5px 3.5px;
+    transition: 0.5s;
+    animation: ease-in-out;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .nav-menu {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .nav-menu .nav-links{
+        background-color: yellowgreen;
+        margin: 10px 0;
+        text-align: center;
+        border-radius: 10px;
+		color: black;
+    }
+
+    .form-control {
+        width: 446px;
+    }
+}

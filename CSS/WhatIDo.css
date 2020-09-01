@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu {
+    background-color: #343A40;
+    display: flex;
+    justify-content: flex-end;
+    font-family: cursive;
+}
+
+.nav-menu .nav-links {
+    text-decoration: none;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-menu .nav-links:hover {
+    background-color: orange;
+    animation: ease-in-out;
+    transition: 0.5s;
+}
+
+.navbar-brand {
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: tomato;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    cursor: pointer;
+}
+
+.header {
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.card{
+    width: 300px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 4px black;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.img-style{
+    width: 100%;
+}
+
+.card-title{
+    font-size: 2rem;
+    font-family: sans-serif;
+    background-color: #363636;
+    color: tomato;
+}
+
+.card-desc{
+    padding: 5px;
+    text-align: justify;
+    color: whitesmoke;
+    background-color: #363636;
+    font-family: cursive;
+}
+
+.card:hover{
+    box-shadow: 3px 4px 6px black;
+    cursor: pointer;
+}
+
+.container {
+    padding: 20px;
+}
+
+.card1 {
+    width: 300px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 4px black;
+    position: absolute;
+    left: 550px;
+    top: 150px;
+}
+
+.card1:hover{
+    box-shadow: 3px 4px 6px black;
+    transition: 0.5s;
+    animation: ease-in-out;
+    cursor: pointer;
+}
+
+.card2 {
+    width: 300px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 4px black;
+    position: absolute;
+    left: 1050px;
+    top: 150px;
+}
+
+.card2:hover{
+    box-shadow: 3px 4px 6px black;
+    transition: 0.5s;
+    animation: ease-in-out;
+    cursor: pointer;
+}
+
+.card3 {
+    width: 300px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 4px black;
+    position: absolute;
+    top: 650px;
+    left: 300px;
+}
+
+.card3:hover{
+    box-shadow: 3px 4px 6px black;
+    transition: 0.5s;
+    animation: ease-in-out;
+    cursor: pointer;
+}
+
+.card4 {
+    width: 300px;
+    border: 1px solid black;
+    box-shadow: 1px 2px 4px black;
+    position: absolute;
+    top: 650px;
+    left: 800px;
+    margin-bottom: 25px;
+}
+
+.card4:hover{
+    box-shadow: 3px 4px 6px black;
+    transition: 0.5s;
+    animation: ease-in-out;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .card2 {
+        position: absolute;
+        top: 1150px;
+        left: 300px;
+        margin-bottom: 20px;
+    }
+
+    .card3 {
+        position: absolute;
+        top: 650px;
+        left: 50px;
+    }
+
+    .card4 {
+        position: absolute;
+        top: 650px;
+        left: 550px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nav-menu {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .nav-menu .nav-links{
+        background-color: yellowgreen;
+        margin: 10px 0;
+        text-align: center;
+        border-radius: 10px;
+		color: black;
+    }
+
+    .card {
+        position: absolute;
+        top: 650px;
+        left: 100px;
+    }
+
+    .card1 {
+        position: absolute;
+        top: 1150px;
+        left: 100px;
+    }
+
+    .card2 {
+        position: absolute;
+        top: 1650px;
+        left: 100px;
+    }
+
+    .card3 {
+        position: absolute;
+        top: 2150px;
+        left: 100px;
+    }
+
+    .card4 {
+        position: absolute;
+        top: 2600px;
+        left: 100px;
+    }
+}

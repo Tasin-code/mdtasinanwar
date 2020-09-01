@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu {
+    background-color: #343A40;
+    display: flex;
+    justify-content: flex-end;
+    font-family: cursive;
+}
+
+.nav-menu .nav-links {
+    text-decoration: none;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-menu .nav-links:hover {
+    background-color: orange;
+    animation: ease-in-out;
+    transition: 0.5s;
+}
+
+.navbar-brand {
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: tomato;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    cursor: pointer;
+}
+
+.home-page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home1  {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Fredoka One', cursive;
+    transition: font-size 1s;
+}
+
+.home1:hover {
+    font-size: 65px;
+}
+
+.home2 {
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Fredoka One', cursive;
+    color: silver;
+}
+
+.icon1 {
+    font-size: 6rem;
+    color: orange;
+    position: absolute;
+    left: 750px;
+    bottom: 350px;
+    transition: transform 1.3s;
+}
+
+.icon1:hover {
+    transform: rotate(360deg);
+}
+
+.icon2 {
+    font-size: 6rem;
+    color: orange;
+    position: absolute;
+    top: 260px;
+    left: -200px;
+    transition: transform 1.3s;
+}
+
+.icon2:hover {
+    transform: rotate(360deg);
+}
+
+
+@media screen and (max-width: 1200px) {
+    .home1 {
+        transition: none;
+        transform: none;
+        font-size: 30px;
+    }
+
+    .home1:hover {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nav-menu {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .nav-menu .nav-links{
+        background-color: yellowgreen;
+        margin: 10px 0;
+        text-align: center;
+        border-radius: 10px;
+		color: black;
+    }
+
+    .icon1 {
+        visibility: hidden;
+    }
+
+    .icon2 {
+        visibility: hidden;
+    }
+
+    .home1 {
+        transition: none;
+        transform: none;
+        font-size: 65px;
+    }
+
+    .home1:hover {
+        font-size: 65px;
+    }
+
+    .home2 {
+        flex-direction: column;
+    }
+
+    .home-page {
+        margin-top: 570px;
+    }
+}

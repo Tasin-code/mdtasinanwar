@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu {
+    background-color: #343A40;
+    display: flex;
+    justify-content: flex-end;
+    font-family: cursive;
+}
+
+.nav-menu .nav-links {
+    text-decoration: none;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-menu .nav-links:hover {
+    background-color: orange;
+    animation: ease-in-out;
+    transition: 0.5s;
+}
+
+.navbar-brand {
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: tomato;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    cursor: pointer;
+}
+
+.skill-container {
+    width: 97.0%;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px;
+    font-family: sans-serif;
+}
+
+.skill-container li {
+    list-style-type: none;
+    margin: 50px 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.skill-container li::before {
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+
+    background-color: rgb(170, 167, 173);
+    width: 100%;
+    height: 25px;
+    border-radius: 1000px;
+}
+
+.skill-container li::after {
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    background-color: rgb(249, 249, 250);
+    width: 0;
+    height: 25px;
+    border-radius: 1000px;
+
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.skill-container li.html::after {
+    animation-name: html;
+}
+
+@keyframes html {
+    to{
+        width: 93%;
+        background-color: tomato;
+    }
+}
+
+.skill-container li.css::after {
+    animation-name: css;
+}
+
+@keyframes css {
+    to{
+        width: 83%;
+        background-color: tomato;
+    }
+}
+
+.skill-container li.bootstrap::after {
+    animation-name: bootstrap;
+}
+
+@keyframes bootstrap {
+    to{
+        width: 60%;
+        background-color: tomato;
+    }
+}
+
+.skill-container li.js::after {
+    animation-name: js;
+}
+
+@keyframes js {
+    to{
+        width: 78%;
+        background-color: tomato;
+    }
+}
+
+.skill-container li.jq::after {
+    animation-name: jq;
+}
+
+@keyframes jq {
+    to{
+        width: 87%;
+        background-color: tomato;
+    }
+}
+
+.skill-container li.json::after {
+    animation-name: json;
+}
+
+@keyframes json {
+    to{
+        width: 75%;
+        background-color: tomato;
+    }
+}
+
+.skill-container li.py::after {
+    animation-name: py;
+}
+
+@keyframes py {
+    to{
+        width: 93%;
+        background-color: tomato;
+    }
+}
+
+.skill-container li.react::after {
+    animation-name: react;
+}
+
+@keyframes react {
+    to {
+        width: 65%;
+        background-color: tomato;
+    }
+}
+
+.mySkills {
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    color: black;
+    text-transform: uppercase;
+}
+
+.skill-container:hover {
+    box-shadow: 5px 5px 5px;
+    transition: 0.5s;
+    animation: ease-in-out;
+}
+
+@media screen and (max-width: 800px) {
+    .nav-menu {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar-brand {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .nav-menu .nav-links{
+        background-color: yellowgreen;
+        margin: 10px 0;
+        text-align: center;
+        border-radius: 10px;
+		color: black;
+    }
+
+    .skill-container {
+        width: 445px;
+    }
+}
