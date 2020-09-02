@@ -50,6 +50,7 @@ body {
 
 form {
     margin-top: 50px;
+    font-family: cursive;
 }
 
 .form-control {
@@ -130,6 +131,12 @@ form .submit:hover{
     }
 
     .form-control {
-        width: 446px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .form-control {
+        width: 350px;
     }
 }
