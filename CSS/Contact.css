@@ -133,3 +133,7 @@ form .submit:hover{
         width: 446px;
     }
 }
+
+.g-recaptcha {
+	margin: 0 auto;
+}
