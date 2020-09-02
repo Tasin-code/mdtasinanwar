@@ -200,6 +200,12 @@
     }
 
     .skill-container {
-        width: 445px;
+        width: 400px;
     }
+}
+
+@media screen and (max-width: 750px) {
+   .skill-container {
+       width: 350px;
+   } 
 }
