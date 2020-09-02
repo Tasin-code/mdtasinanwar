@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="CSS/Contact.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="Images/Favicon.png" type="image/x-icon">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
     <nav>
@@ -37,6 +38,8 @@
             <input type="email" name="Email" class="form-control" id="mail" placeholder="Email" required><br/>
             <input type="text" name="Subject" class="form-control" id="sbj" placeholder="Subject" required><br/>
             <textarea name="Message" class="form-control" id="msg" rows="4" placeholder="Message" required></textarea><br/>
+            <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+            <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
 
             <input type="submit" class="submit form-control" value="SEND MESSAGE">
         </form>
