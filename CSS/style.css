@@ -80,22 +80,13 @@
     position: absolute;
     top: 260px;
     left: -200px;
-    transition: transform 1.3s;
+    transition: transform 1.5s;
 }
 
 .icon2:hover {
     transform: rotate(360deg);
 }
 
-@media screen and (max-width: 1440px) {
-     .home1 {
-	font-size: 55px;
-      }
-      
-      .home1:hover {
-	font-size: 56px;
-      }
-}
 
 @media screen and (max-width: 1200px) {
     .home1 {
@@ -128,14 +119,6 @@
 		color: black;
     }
 
-    .icon1 {
-        visibility: hidden;
-    }
-
-    .icon2 {
-        visibility: hidden;
-    }
-
     .home1 {
         transition: none;
         transform: none;
@@ -152,5 +135,22 @@
 
     .home-page {
         margin-top: 570px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .home1 {
+        font-size: 55px;
+        margin-top: 7px;
+    }
+
+    .home1:hover {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .home-page {
+        margin-top: 10px;
     }
 }
