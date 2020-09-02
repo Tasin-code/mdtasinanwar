@@ -87,7 +87,7 @@
     transform: rotate(360deg);
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1399px) {
     .home1 {
 	font-size: 55px;	
     }
