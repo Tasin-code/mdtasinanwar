@@ -87,6 +87,15 @@
     transform: rotate(360deg);
 }
 
+@media screen and (max-width: 1440px) {
+     .home1 {
+	font-size: 55px;
+      }
+      
+      .home1:hover {
+	font-size: 56px;
+      }
+}
 
 @media screen and (max-width: 1200px) {
     .home1 {
