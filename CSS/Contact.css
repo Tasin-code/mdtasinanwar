@@ -135,6 +135,5 @@ form .submit:hover{
 }
 
 .g-recaptcha {
-    margin: 0 auto;
-    text-align: center;
+    margin: auto;
 }
