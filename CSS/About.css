@@ -140,18 +140,18 @@
     .card {
         position: absolute;
         top: 650px;
-        left: 100px;
+        left: 50px;
     }
 
     .card1 {
         position: absolute;
         top: 1050px;
-        left: 100px;
+        left: 50px;
     }
 
     .card2 {
         position: absolute;
         top: 1420px;
-        left: 100px;
+        left: 50px;
     }
 }
