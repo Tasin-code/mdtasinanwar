@@ -88,6 +88,10 @@
 }
 
 @media screen and (max-width: 1400px) {
+    .home1 {
+	font-size: 55px;	
+    }
+	
     .home1:hover{
 	font-size: 55px;	
     }
@@ -97,11 +101,11 @@
     .home1 {
         transition: none;
         transform: none;
-        font-size: 30px;
+        font-size: 55px;
     }
 
     .home1:hover {
-        font-size: 30px;
+        font-size: 55px;
     }
 }
 
@@ -121,7 +125,7 @@
         margin: 10px 0;
         text-align: center;
         border-radius: 10px;
-		color: black;
+	color: black;
     }
 
     .home1 {
@@ -145,12 +149,12 @@
 
 @media screen and (max-width: 750px) {
     .home1 {
-        font-size: 55px;
-        margin-top: 7px;
+        font-size: 45px;
+        margin-top: 10px;
     }
 
     .home1:hover {
-        font-size: 55px;
+        font-size: 45px;
     }
 }
 
