@@ -188,30 +188,30 @@
     .card {
         position: absolute;
         top: 650px;
-        left: 100px;
+        left: 50px;
     }
 
     .card1 {
         position: absolute;
         top: 1150px;
-        left: 100px;
+        left: 50px;
     }
 
     .card2 {
         position: absolute;
         top: 1650px;
-        left: 100px;
+        left: 50px;
     }
 
     .card3 {
         position: absolute;
         top: 2150px;
-        left: 100px;
+        left: 50px;
     }
 
     .card4 {
         position: absolute;
         top: 2600px;
-        left: 100px;
+        left: 50px;
     }
 }
