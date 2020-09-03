@@ -39,7 +39,7 @@ body {
     text-align: center;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;   
+    font-family: sans-serif;
 }
 
 .contact-title {
@@ -93,6 +93,13 @@ form .submit:hover{
 .social-media {
     padding: 50px 50px;
     text-align: center;
+    background-color: yellowgreen;
+    padding: 15px;
+    width: 570px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 .btn {
@@ -109,6 +116,21 @@ form .submit:hover{
     transition: 0.5s;
     animation: ease-in-out;
     cursor: pointer;
+}
+
+.e-mail {
+  background-color: yellowgreen;
+  width: 570px;
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {
