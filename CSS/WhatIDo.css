@@ -73,6 +73,8 @@
 
 .card:hover{
     box-shadow: 3px 4px 6px black;
+    transition: 0.5s;
+    animation: ease-in-out;
     cursor: pointer;
 }
 
