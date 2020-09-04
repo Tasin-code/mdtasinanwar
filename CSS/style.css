@@ -67,7 +67,7 @@
     position: absolute;
     left: 750px;
     bottom: 350px;
-    transition: transform 1.3s;
+    transition: transform 1.5s;
 }
 
 .icon1:hover {
