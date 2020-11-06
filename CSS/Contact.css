@@ -133,6 +133,11 @@ form .submit:hover{
   cursor: pointer;
 }
 
+.e-mail a {
+    text-decoration: none;
+    color: black;
+}
+
 @media screen and (max-width: 800px) {
     .nav-menu {
         flex-direction: column;
